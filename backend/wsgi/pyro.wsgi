@@ -2,4 +2,4 @@ import sys
 
 sys.path.append('/var/www')
 
-from pyro import front_controller.FrontController as application
+from pyro.front_controller import FrontController as application
